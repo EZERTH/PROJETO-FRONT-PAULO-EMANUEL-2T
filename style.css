@@ -1,0 +1,115 @@
+/* Estilos gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #e63946;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Destaque */
+.destaque {
+  padding: 40px 20px;
+  background-color: #ffe6e6; /* fundo suave combinando com vermelho */
+  text-align: center;
+}
+
+.destaque h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.destaque p {
+  font-size: 1.2rem;
+}
+
+/* Receitas */
+.receitas {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.receitas h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  color: #e63946;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #e63946;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* Botão personalizado */
+.botao-cor {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.botao-cor:hover {
+  background-color: #c02738;
+}
