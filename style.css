@@ -1,4 +1,4 @@
-/* Estilos gerais */
+
 * {
   margin: 0;
   padding: 0;
@@ -35,10 +35,10 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Destaque */
+
 .destaque {
   padding: 40px 20px;
-  background-color: #ffe6e6; /* fundo suave combinando com vermelho */
+  background-color: #ffe6e6;
   text-align: center;
 }
 
@@ -51,7 +51,6 @@ nav a:hover {
   font-size: 1.2rem;
 }
 
-/* Receitas */
 .receitas {
   padding: 40px 20px;
   max-width: 1000px;
@@ -70,10 +69,12 @@ nav a:hover {
   padding: 20px;
   margin-bottom: 20px;
   text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .card img {
-  width: 100%;
+  width: 20%;
   border-radius: 10px;
   margin-bottom: 15px;
 }
@@ -88,7 +89,29 @@ nav a:hover {
   font-size: 1rem;
 }
 
-/* Footer */
+
+.card .recipe-details {
+  display: none;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 1rem;
+  color: #333;
+}
+
+.card.open .recipe-details {
+  display: block;
+}
+
+.card.open {
+  background-color: #eaeaea;
+  transform: scale(1.05);
+}
+
+.card.open h3 {
+  color: #c02738;
+}
+
+
 footer {
   background-color: #e63946;
   color: white;
@@ -97,7 +120,6 @@ footer {
   margin-top: 30px;
 }
 
-/* Botão personalizado */
 .botao-cor {
   background-color: #e63946;
   color: white;
